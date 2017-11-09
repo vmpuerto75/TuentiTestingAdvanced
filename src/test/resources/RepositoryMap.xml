@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+    <windows>
+       <driver id="marionette">
+            <version id="0.19.1">
+                <bitrate sixtyfourbit="true">
+                    <filelocation>https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win64.zip</filelocation>
+                    <hash>c34dc580960cc9f540a1967a4d041525147b7509</hash>
+                    <hashtype>sha1</hashtype>
+                </bitrate>
+                <bitrate thirtytwobit="true">
+                    <filelocation>https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-win32.zip</filelocation>
+                    <hash>cc822d30efe3119b76af9265c47d42fca208f85a</hash>
+                    <hashtype>sha1</hashtype>                                        
+                </bitrate>
+            </version>
+        </driver>    
+        <driver id="internetexplorer">
+            <version id="3.4.0">
+                <bitrate sixtyfourbit="true">
+                    <filelocation>http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_x64_3.4.0.zip</filelocation>
+                    <hash>3e79d5cf2acdd91d0ddab9f2044ce51057ff77fe</hash>
+                    <hashtype>sha1</hashtype>
+                </bitrate>
+                <bitrate thirtytwobit="true">
+                    <filelocation>http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_Win32_3.4.0.zip</filelocation>
+                    <hash>cc822d30efe3119b76af9265c47d42fca208f85a</hash>
+                    <hashtype>sha1</hashtype>                                        
+                </bitrate>
+            </version>
+        </driver>
+        <driver id="googlechrome">
+            <version id="2.30">
+                <bitrate thirtytwobit="true" sixtyfourbit="true">
+                    <filelocation>https://chromedriver.storage.googleapis.com/2.30/chromedriver_win32.zip</filelocation>
+                    <hash>e5734a9b7e67b600fdcc4ded6ee4e28f796f6230</hash>
+                    <hashtype>sha1</hashtype>                    
+                </bitrate>
+            </version>
+        </driver>
+        <driver id="phantomjs">
+            <version id="1.9.8">
+                <bitrate thirtytwobit="true" sixtyfourbit="true">
+                    <filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-windows.zip</filelocation>
+                    <hash>4531bd64df101a689ac7ac7f3e11bb7e77af8eff</hash>
+                    <hashtype>sha1</hashtype>
+                </bitrate>
+            </version>
+        </driver>
+    </windows>
+    <linux/>
+    <osx/>
+</root>
